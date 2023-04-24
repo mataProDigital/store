@@ -64,3 +64,34 @@ h2 {
 h3 {
   font-size: 2.4rem;
 }
+
+/* HEADER */
+.header {
+  display: flex;
+  justify-content: center
+}
+
+.header__logo {
+  width: 13rem;
+  margin: 2rem;
+}
+
+/* navigation */
+
+.navigation {
+background-color: var(--primarioOscuro);
+padding: 1rem 0;
+display: flex;
+justify-content: center;
+gap: 3rem;
+}
+
+.navigation__link{
+font-family: var(--funtePrincipal);
+color: var(--blanco);
+font-size: 3rem;gap: 3rem;
+}
+
+.navigation__link--active,.navigation__link:hover{
+  color: var(--secundario);
+}
