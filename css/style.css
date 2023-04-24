@@ -1,9 +1,9 @@
 :root {
-  --primario: #9c27b0;
-  --primarioOscuro: #89119d;
+  --primario: #2E3840;
+  --primarioOscuro: #4E6E81;
   --secundario: #ffce00;
-  --secundarioOscuro: rgb(233, 287, 2);
-  --blanco: #fff;
+  --secundarioOscuro: rgb(255, 3, 3);
+  --blanco: #F9DBBB;
 
   --funtePrincipal: 'Staatliches', cursive;
 }
@@ -83,15 +83,56 @@ background-color: var(--primarioOscuro);
 padding: 1rem 0;
 display: flex;
 justify-content: center;
-gap: 3rem;
+gap: 3rem; /*SEPARACION FORMA NUEVA */
 }
 
 .navigation__link{
 font-family: var(--funtePrincipal);
 color: var(--blanco);
 font-size: 3rem;gap: 3rem;
+/* margin-right: 2rem;SEPARACION FORMA ANTIGUA */
 }
+
+/* .navigation__link:last-child{ 
+  margin-right: 0;/* SEPARACION FORMA ANTIGUA 
+}*/
 
 .navigation__link--active,.navigation__link:hover{
   color: var(--secundario);
+}
+
+/* FOOTER */
+
+.footer {
+  background-color: var(--primarioOscuro);
+  padding: 1rem 0;
+  margin-top: 2rem;
+}
+
+.footer__text{
+  font-family: var(--funtePrincipal);
+  text-align: center;
+  font-size: 2rem;
+}
+
+/* PRODUCTOS */
+
+.producto{
+
+}
+
+.producto__imagen{
+
+}
+
+.producto__info{
+  
+}
+
+.producto__nombre{
+
+}
+
+.producto__precio{
+  
 }
