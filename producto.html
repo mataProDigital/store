@@ -16,22 +16,50 @@
 <body>
   <header class="header">
     <a href="index.html">
-      <img class="header__logo" src="img/logo_store.png" alt="logotipo">
+      <img class="header__logo" src="img/logo_store.png" alt="Logotipo">
     </a>
   </header>
 
-  <nav class="navigation">
-    <a class="navigation__link navigation__link--active" href="#">Tienda</a>
-    <a class="navigation__link" href="#">Nosotros</a>
+  <nav class="navegacion">
+    <a class="navegacion__enlace navegacion__enlace--activo" href="index.html">Tienda</a>
+    <a class="navegacion__enlace" href="nosotros.html">Nosotros</a>
   </nav>
 
-  <main class="container">
-    <h1>Nuestros productos</h1>
+  <main class="contenedor">
+    <h1>React JS</h1>
+
+    <div class="camisa">
+      <div class="">
+        <img class="camisa__imagen" src="img/3.jpg" alt="Imagen del Producto">
+
+      </div>
+
+      <div class="camisa__contenido">
+        <p>Esta camiseta está hecha con algodón de alta calidad, lo que la hace suave y cómoda de llevar todo el día.
+        <p>
+La playera viene en un hermoso color negro con un diseño único y divertido que seguramente llamará la atención de tus
+amigos y compañeros de trabajo. El diseño cuenta con una serie de líneas de código de programación que rodean una imagen
+de un ordenador portátil, lo que la hace perfecta para cualquier desarrollador o amante de la tecnología.
+        </p>
+        <p>La camiseta está disponible en tres tamanos,desde la Chica, mediana y Grande, lo que significa que hay una
+        talla para todos. Además, es fácil de lavar y mantener, lo que la hace perfecta para un uso diario.</p>
+
+        <form class="formulario">
+          <select class="formulario__campo">
+            <option disabled selected>-- Seleccionar Talla --</option>
+            <option>Chica</option>
+            <option>Mediana</option>
+            <option>Grande</option>
+          </select>
+          <input class="formulario__campo formulario__campo--size" type="number" placeholder="Cantidad" min="1">
+          <input class="formulario__submit" type="submit" value="Agregar al Carrito">
+        </form>
+      </div>
+    </div>
   </main>
 
   <footer class="footer">
-    <p class="footer__text">Code Store - Todos los derechos reservados 2023.</p>
+    <p class="footer__texto">Code Store - Todos los derechos Reservados 2022.</p>
   </footer>
 </body>
-
 </html>
